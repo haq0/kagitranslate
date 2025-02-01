@@ -2,6 +2,8 @@
 
 Unofficial Kagi Translate is a JavaScript-based translation tool designed to facilitate seamless language translation for various applications. This repository contains all the necessary code and resources to implement and customize translation functionalities as per your needs.
 
+![](screenshots/translate.png)
+
 ## Why Install Locally?
 
 Due to Google restrictions, we recommend uninstalling the Google Webstore version and installing the extension locally to ensure full functionality.
