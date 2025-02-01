@@ -1,7 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Kagi Translate",
-  "version": "1.0",
+  "name": "Unofficial Kagi Translate",
+  "version": "1.1",
+  "description": "A browser extension that translates pages and text using Kagi Translate",
   "icons": {
     "16": "icon16.png",
     "48": "icon48.png",
@@ -14,7 +15,7 @@
     },
     "default_title": "Translate Page/Text"
   },
-  "permissions": ["scripting"],
+  "permissions": ["activeTab", "scripting", "contextMenus"],
   "host_permissions": ["<all_urls>"],
   "background": {
     "service_worker": "background.js"
